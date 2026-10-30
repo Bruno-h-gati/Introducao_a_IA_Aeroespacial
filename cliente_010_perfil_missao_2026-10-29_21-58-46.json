@@ -1,0 +1,80 @@
+{
+    "cliente_numero": 10,
+    "horario_inicio": "2026-10-29T21:52:54-03:00",
+    "horario_fim": "2026-10-29T21:58:46-03:00",
+    "duracao_segundos": 351.45,
+    "perfil": {
+        "origem": "Não informado",
+        "destino": "Não informado",
+        "aeroportos_especificos": [],
+        "numero_passageiros": 8,
+        "tripulacao": "Não informado",
+        "bagagem": "heavy luggage (225 lbs per person, total payload 1,800 lbs)",
+        "distancia_milhas_nauticas": null,
+        "comprimento_pista_pes": null,
+        "orcamento_aquisicao": "Please identify aircraft whose Max Payload Range or Full-Fuel Payload supports this specific mission.",
+        "voo_sem_escala": null,
+        "objetivo_missao": "Can they actually fly this with full seats and bags without a payload-range penalty?",
+        "necessidades_operacionais": [
+            "standard NBAA IFR reserves",
+            "light-to-midsize jets advertise ranges of 2,500+ nm"
+        ],
+        "preferencias_cliente": [],
+        "informacoes_nao_informadas": [],
+        "contradicoes": [],
+        "evidencias": [
+            {
+                "campo": "numero_passageiros",
+                "trecho_original": "8 passengers",
+                "tipo_informacao": "explícita",
+                "interpretacao": "8"
+            },
+            {
+                "campo": "bagagem",
+                "trecho_original": "heavy luggage (225 lbs per person, total payload 1,800 lbs)",
+                "tipo_informacao": "explícita",
+                "interpretacao": "225 lbs per person, total payload 1,800 lbs"
+            },
+            {
+                "campo": "distancia_milhas_nauticas",
+                "trecho_original": "2,400 nm",
+                "tipo_informacao": "explícita",
+                "interpretacao": "2,400"
+            },
+            {
+                "campo": "distancia_milhas_nauticas",
+                "trecho_original": "40 -knot winter headwinds",
+                "tipo_informacao": "explícita",
+                "interpretacao": "40-knot winter headwinds"
+            },
+            {
+                "campo": "necessidades_operacionais",
+                "trecho_original": "requiring standard NBAA IFR reserves",
+                "tipo_informacao": "explícita",
+                "interpretacao": "standard NBAA IFR reserves"
+            },
+            {
+                "campo": "necessidades_operacionais",
+                "trecho_original": "Many light-to-midsize jets advertise ranges of 2,500+ nm",
+                "tipo_informacao": "explícita",
+                "interpretacao": "light-to-midsize jets advertise ranges of 2,500+ nm"
+            },
+            {
+                "campo": "objetivo_missao",
+                "trecho_original": "Can they actually fly this with full seats and bags without a payload-range penalty?",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Can they actually fly this with full seats and bags without a payload-range penalty?"
+            },
+            {
+                "campo": "orcamento_aquisicao",
+                "trecho_original": "Please identify aircraft whose Max Payload Range or Full-Fuel Payload supports this specific mission.",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Please identify aircraft whose Max Payload Range or Full-Fuel Payload supports this specific mission."
+            }
+        ]
+    },
+    "avisos_validacao": [
+        "Distância identificada, mas a unidade ou o formato numérico é ambíguo. Valor não consolidado.",
+        "Inconsistência: existe evidência válida para 'distancia_milhas_nauticas', mas o perfil permanece sem informação."
+    ]
+}

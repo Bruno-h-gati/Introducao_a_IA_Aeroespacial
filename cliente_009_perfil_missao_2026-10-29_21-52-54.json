@@ -1,0 +1,136 @@
+{
+    "cliente_numero": 9,
+    "horario_inicio": "2026-10-29T21:46:31-03:00",
+    "horario_fim": "2026-10-29T21:52:54-03:00",
+    "duracao_segundos": 383.79,
+    "perfil": {
+        "origem": "Our flight department currently operates two Embraer Phenom 300Es.",
+        "destino": "Due to expanding executive routes into North America and Europe",
+        "aeroportos_especificos": [],
+        "numero_passageiros": null,
+        "tripulacao": "Não informado",
+        "bagagem": "Não informado",
+        "distancia_milhas_nauticas": 3500.0,
+        "comprimento_pista_pes": null,
+        "orcamento_aquisicao": "Não informado",
+        "voo_sem_escala": null,
+        "objetivo_missao": "we need a step-up aircraft with at least 3,500 nm range",
+        "necessidades_operacionais": [
+            "Comumidade de frota OEM",
+            "Facilidade de transição de tipo de tripulação",
+            "Aproveitamento da infraestrutura de suporte Embraer Executive Care (EEC)"
+        ],
+        "preferencias_cliente": [
+            "Comumidade de frota OEM",
+            "Facilidade de transição de tipo de tripulação",
+            "Aproveitamento da infraestrutura de suporte Embraer Executive Care (EEC)"
+        ],
+        "informacoes_nao_informadas": [],
+        "contradicoes": [],
+        "evidencias": [
+            {
+                "campo": "origem",
+                "trecho_original": "Our flight department currently operates two Embraer Phenom 300Es.",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Aeronaves atuais operadas pelo departamento de voo"
+            },
+            {
+                "campo": "destino",
+                "trecho_original": "Due to expanding executive routes into North America and Europe",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Regiões geográficas para expansão de rotas executivas"
+            },
+            {
+                "campo": "aeroportos_especificos",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Não informado"
+            },
+            {
+                "campo": "numero_passageiros",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Não informado"
+            },
+            {
+                "campo": "tripulacao",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Não informado"
+            },
+            {
+                "campo": "bagagem",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Não informado"
+            },
+            {
+                "campo": "distancia_milhas_nauticas",
+                "trecho_original": "at least 3,500 nm range",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Mínimo de 3.500 milhas náuticas de autonomia"
+            },
+            {
+                "campo": "comprimento_pista_pes",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Não informado"
+            },
+            {
+                "campo": "orcamento_aquisicao",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Não informado"
+            },
+            {
+                "campo": "voo_sem_escala",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Não informado"
+            },
+            {
+                "campo": "objetivo_missao",
+                "trecho_original": "we need a step-up aircraft with at least 3,500 nm range",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Aquisição de um avião de passo superior com autonomia mínima de 3.500 milhas náuticas"
+            },
+            {
+                "campo": "necessidades_operacionais",
+                "trecho_original": "We value OEM fleet commonality, crew type-rating transition ease, and leveraging our existing Embraer Executive Care (EEC) support infrastructure",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Comumidade de frota OEM, facilidade de transição de tipo de tripulação, e aproveitamento da infraestrutura de suporte Embraer Executive Care (EEC)"
+            },
+            {
+                "campo": "preferencias_cliente",
+                "trecho_original": "We value OEM fleet commonality, crew type-rating transition ease, and leveraging our existing Embraer Executive Care (EEC) support infrastructure",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Comumidade de frota OEM, facilidade de transição de tipo de tripulação, e aproveitamento da infraestrutura de suporte Embraer Executive Care (EEC)"
+            },
+            {
+                "campo": "informacoes_nao_informadas",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Não informado"
+            },
+            {
+                "campo": "contradicoes",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Não informado"
+            }
+        ]
+    },
+    "avisos_validacao": [
+        "Evidência 3 (aeroportos_especificos): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 4 (numero_passageiros): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 5 (tripulacao): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 6 (bagagem): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 8 (comprimento_pista_pes): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 9 (orcamento_aquisicao): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 10 (voo_sem_escala): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 12 (necessidades_operacionais): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 13 (preferencias_cliente): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 14 (informacoes_nao_informadas): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 15 (contradicoes): trecho não localizado literalmente no documento. Evidência descartada."
+    ]
+}

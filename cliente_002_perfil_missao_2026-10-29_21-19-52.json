@@ -1,0 +1,83 @@
+{
+    "cliente_numero": 2,
+    "horario_inicio": "2026-10-29T21:14:56-03:00",
+    "horario_fim": "2026-10-29T21:19:52-03:00",
+    "duracao_segundos": 296.05,
+    "perfil": {
+        "origem": "São Paulo",
+        "destino": "Lisbon",
+        "aeroportos_especificos": [],
+        "numero_passageiros": 8,
+        "tripulacao": "Não informado",
+        "bagagem": "Não informado",
+        "distancia_milhas_nauticas": 4200.0,
+        "comprimento_pista_pes": 2200,
+        "orcamento_aquisicao": "$8 million",
+        "voo_sem_escala": null,
+        "objetivo_missao": "Não informado",
+        "necessidades_operacionais": [
+            "autonomia",
+            "alcance",
+            "capacidade",
+            "operacao_em_pistas",
+            "velocidade",
+            "conectividade"
+        ],
+        "preferencias_cliente": [
+            "decoracao",
+            "cores",
+            "materiais",
+            "acabamento",
+            "preferencias_esteticas"
+        ],
+        "informacoes_nao_informadas": [
+            "I need to operate out of an unpaved grass strip on my farm"
+        ],
+        "contradicoes": [],
+        "evidencias": [
+            {
+                "campo": "origem",
+                "trecho_original": "São Paulo",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Cidade de origem do voo"
+            },
+            {
+                "campo": "destino",
+                "trecho_original": "Lisbon",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Cidade de destino do voo"
+            },
+            {
+                "campo": "distancia_milhas_nauticas",
+                "trecho_original": "4,200 nm",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Distância aproximada entre São Paulo e Lisbon em milhas náuticas"
+            },
+            {
+                "campo": "numero_passageiros",
+                "trecho_original": "8",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Número de passageiros no voo"
+            },
+            {
+                "campo": "comprimento_pista_pes",
+                "trecho_original": "2,200 feet",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Comprimento da pista em pés"
+            },
+            {
+                "campo": "orcamento_aquisicao",
+                "trecho_original": "$8 million",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Orçamento máximo para aquisição da aeronave"
+            },
+            {
+                "campo": "informacoes_nao_informadas",
+                "trecho_original": "I need to operate out of an unpaved grass strip on my farm",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Informação sobre a pista de pouso (não pavimentada, gramado, na fazenda)"
+            }
+        ]
+    },
+    "avisos_validacao": []
+}

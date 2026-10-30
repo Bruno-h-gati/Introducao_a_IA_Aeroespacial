@@ -1,0 +1,138 @@
+{
+    "cliente_numero": 3,
+    "horario_inicio": "2026-10-29T21:19:52-03:00",
+    "horario_fim": "2026-10-29T21:25:59-03:00",
+    "duracao_segundos": 366.76,
+    "perfil": {
+        "origem": "transcontinental flights across the Americas",
+        "destino": "transcontinental flights across the Americas",
+        "aeroportos_especificos": [],
+        "numero_passageiros": 4,
+        "tripulacao": "Não informado",
+        "bagagem": "Não informado",
+        "distancia_milhas_nauticas": 3200.0,
+        "comprimento_pista_pes": null,
+        "orcamento_aquisicao": "Não informado",
+        "voo_sem_escala": null,
+        "objetivo_missao": "We are evaluating super -midsize jets for transcontinental flights across the Americas",
+        "necessidades_operacionais": [
+            "Alcance mínimo de 3.200 milhas náuticas (NBAA IFR)",
+            "4 passageiros",
+            "Cabine com piso plano verdadeiro (mínimo 6'0\" de altura)",
+            "Avionics modernos"
+        ],
+        "preferencias_cliente": [
+            "Modelos considerados: Praetor 600",
+            "Modelos considerados: Challenger 3500",
+            "Modelos considerados: Citation Longitude"
+        ],
+        "informacoes_nao_informadas": [
+            "Não informado no documento"
+        ],
+        "contradicoes": [
+            "Não identificadas"
+        ],
+        "evidencias": [
+            {
+                "campo": "origem",
+                "trecho_original": "transcontinental flights across the Americas",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Viagem transcontinental entre os continentes americanos"
+            },
+            {
+                "campo": "destino",
+                "trecho_original": "transcontinental flights across the Americas",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Viagem transcontinental entre os continentes americanos"
+            },
+            {
+                "campo": "aeroportos_especificos",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Não informado no documento"
+            },
+            {
+                "campo": "numero_passageiros",
+                "trecho_original": "4 passengers",
+                "tipo_informacao": "explícita",
+                "interpretacao": "4 passageiros"
+            },
+            {
+                "campo": "tripulacao",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Não informado no documento"
+            },
+            {
+                "campo": "bagagem",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Não informado no documento"
+            },
+            {
+                "campo": "distancia_milhas_nauticas",
+                "trecho_original": "3,200 nm",
+                "tipo_informacao": "explícita",
+                "interpretacao": "3.200 milhas náuticas"
+            },
+            {
+                "campo": "comprimento_pista_pes",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Não informado no documento"
+            },
+            {
+                "campo": "orcamento_aquisicao",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Não informado no documento"
+            },
+            {
+                "campo": "voo_sem_escala",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Não informado no documento"
+            },
+            {
+                "campo": "objetivo_missao",
+                "trecho_original": "We are evaluating super -midsize jets for transcontinental flights across the Americas",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Avaliação de aeronaves super-midsize para voos transcontinentais entre os continentes americanos"
+            },
+            {
+                "campo": "necessidades_operacionais",
+                "trecho_original": "NBAA IFR range of at least 3,200 nm with 4 passengers, a true stand -up flat-floor cabin (minimum 6'0\" height), and modern avionics",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Alcance mínimo de 3.200 milhas náuticas (NBAA IFR), 4 passageiros, cabine com piso plano verdadeiro (mínimo 6'0\" de altura) e avionics modernos"
+            },
+            {
+                "campo": "preferencias_cliente",
+                "trecho_original": "We are considering models like the Praetor 600, Challenger 3500, and Citation Longitude",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Modelos considerados: Praetor 600, Challenger 3500 e Citation Longitude"
+            },
+            {
+                "campo": "informacoes_nao_informadas",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Não informado no documento"
+            },
+            {
+                "campo": "contradicoes",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Não identificadas"
+            }
+        ]
+    },
+    "avisos_validacao": [
+        "Evidência 3 (aeroportos_especificos): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 5 (tripulacao): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 6 (bagagem): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 8 (comprimento_pista_pes): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 9 (orcamento_aquisicao): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 10 (voo_sem_escala): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 14 (informacoes_nao_informadas): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 15 (contradicoes): trecho não localizado literalmente no documento. Evidência descartada."
+    ]
+}

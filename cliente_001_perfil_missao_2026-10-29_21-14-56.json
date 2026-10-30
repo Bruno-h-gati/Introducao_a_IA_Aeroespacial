@@ -1,0 +1,111 @@
+{
+    "cliente_numero": 1,
+    "horario_inicio": "2026-10-29T21:06:55-03:00",
+    "horario_fim": "2026-10-29T21:14:56-03:00",
+    "duracao_segundos": 481.21,
+    "perfil": {
+        "origem": "São Paulo (GRU)",
+        "destino": "Manaus (MAO)",
+        "aeroportos_especificos": [
+            "GRU",
+            "MAO"
+        ],
+        "numero_passageiros": 6,
+        "tripulacao": "Não informado",
+        "bagagem": "standard luggage",
+        "distancia_milhas_nauticas": null,
+        "comprimento_pista_pes": null,
+        "orcamento_aquisicao": "Não informado",
+        "voo_sem_escala": true,
+        "objetivo_missao": "Não informado",
+        "necessidades_operacionais": [
+            "We require an enclosed lavatory"
+        ],
+        "preferencias_cliente": [
+            "We need an aircraft that can fly nonstop between São Paulo (GRU) and Manaus (MAO), roughly 1,500 nautical miles, with 6 passengers and standard luggage."
+        ],
+        "informacoes_nao_informadas": [],
+        "contradicoes": [],
+        "evidencias": [
+            {
+                "campo": "origem",
+                "trecho_original": "São Paulo (GRU)",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Cidade de origem com código IATA"
+            },
+            {
+                "campo": "destino",
+                "trecho_original": "Manaus (MAO)",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Cidade de destino com código IATA"
+            },
+            {
+                "campo": "aeroportos_especificos",
+                "trecho_original": "GRU",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Código IATA do aeroporto de origem"
+            },
+            {
+                "campo": "aeroportos_especificos",
+                "trecho_original": "MAO",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Código IATA do aeroporto de destino"
+            },
+            {
+                "campo": "distancia_milhas_nauticas",
+                "trecho_original": "1,500",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Distância em milhas náuticas entre os aeroportos"
+            },
+            {
+                "campo": "numero_passageiros",
+                "trecho_original": "6",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Número de passageiros"
+            },
+            {
+                "campo": "bagagem",
+                "trecho_original": "standard luggage",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Tipo de bagagem solicitada"
+            },
+            {
+                "campo": "comprimento_pista_pes",
+                "trecho_original": "4,500",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Comprimento da pista em pés para aeroportos secundários"
+            },
+            {
+                "campo": "orcamento_aquisicao",
+                "trecho_original": "$10M to $12M",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Orçamento de aquisição em dólares"
+            },
+            {
+                "campo": "voo_sem_escala",
+                "trecho_original": "nonstop",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Tipo de voo sem escala"
+            },
+            {
+                "campo": "necessidades_operacionais",
+                "trecho_original": "We require an enclosed lavatory",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Requisito operacional específico"
+            },
+            {
+                "campo": "preferencias_cliente",
+                "trecho_original": "We need an aircraft that can fly nonstop between São Paulo (GRU) and Manaus (MAO), roughly 1,500 nautical miles, with 6 passengers and standard luggage.",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Descrição das preferências do cliente"
+            }
+        ]
+    },
+    "avisos_validacao": [
+        "Evidência 9 (orcamento_aquisicao): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Distância identificada, mas a unidade ou o formato numérico é ambíguo. Valor não consolidado.",
+        "Comprimento de pista identificado, mas a unidade ou o número é ambíguo.",
+        "Inconsistência: existe evidência válida para 'distancia_milhas_nauticas', mas o perfil permanece sem informação.",
+        "Inconsistência: existe evidência válida para 'comprimento_pista_pes', mas o perfil permanece sem informação."
+    ]
+}

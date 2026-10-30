@@ -1,0 +1,77 @@
+{
+    "cliente_numero": 4,
+    "horario_inicio": "2026-10-29T21:25:59-03:00",
+    "horario_fim": "2026-10-29T21:30:19-03:00",
+    "duracao_segundos": 259.79,
+    "perfil": {
+        "origem": "New York",
+        "destino": "London",
+        "aeroportos_especificos": [],
+        "numero_passageiros": 9,
+        "tripulacao": "Não informado",
+        "bagagem": "Não informado",
+        "distancia_milhas_nauticas": 3500.0,
+        "comprimento_pista_pes": null,
+        "orcamento_aquisicao": "$6.5 million",
+        "voo_sem_escala": true,
+        "objetivo_missao": "Não informado",
+        "necessidades_operacionais": [
+            "autonomia",
+            "alcance",
+            "capacidade",
+            "operacao_em_pistas",
+            "velocidade",
+            "conectividade"
+        ],
+        "preferencias_cliente": [
+            "High -Speed Cruise (Mach 0.85+)"
+        ],
+        "informacoes_nao_informadas": [],
+        "contradicoes": [],
+        "evidencias": [
+            {
+                "campo": "origem",
+                "trecho_original": "New York",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Cidade de origem do voo"
+            },
+            {
+                "campo": "destino",
+                "trecho_original": "London",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Cidade de destino do voo"
+            },
+            {
+                "campo": "distancia_milhas_nauticas",
+                "trecho_original": "3,500 nm",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Distância aproximada entre New York e London em milhas náuticas"
+            },
+            {
+                "campo": "numero_passageiros",
+                "trecho_original": "9",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Número máximo de passageiros para o voo"
+            },
+            {
+                "campo": "orcamento_aquisicao",
+                "trecho_original": "$6.5 million",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Orçamento máximo para aquisição da aeronave"
+            },
+            {
+                "campo": "voo_sem_escala",
+                "trecho_original": "nonstop",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Voo sem escala"
+            },
+            {
+                "campo": "preferencias_cliente",
+                "trecho_original": "High -Speed Cruise (Mach 0.85+)",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Preferência de velocidade de cruzeiro da aeronave"
+            }
+        ]
+    },
+    "avisos_validacao": []
+}

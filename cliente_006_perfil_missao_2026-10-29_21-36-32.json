@@ -1,0 +1,129 @@
+{
+    "cliente_numero": 6,
+    "horario_inicio": "2026-10-29T21:31:02-03:00",
+    "horario_fim": "2026-10-29T21:36:32-03:00",
+    "duracao_segundos": 329.38,
+    "perfil": {
+        "origem": "Toluca, Mexico",
+        "destino": "our regional destination",
+        "aeroportos_especificos": [
+            "Toluca, Mexico (elevation ~8,460 ft)"
+        ],
+        "numero_passageiros": 5,
+        "tripulacao": "Não informado",
+        "bagagem": "Não informado",
+        "distancia_milhas_nauticas": 1800.0,
+        "comprimento_pista_pes": 4100,
+        "orcamento_aquisicao": "Não informado",
+        "voo_sem_escala": null,
+        "objetivo_missao": "We need an aircraft that can regularly operate out of high -elevation airfields such as Toluca, Mexico (elevation ~8,460 ft) in ISA+15 conditions, departing with enough fuel and 5 passengers to fly 1,800 nm.",
+        "necessidades_operacionais": [
+            "combustível suficiente",
+            "5 passageiros para voar 1.800 milhas náuticas"
+        ],
+        "preferencias_cliente": [],
+        "informacoes_nao_informadas": [],
+        "contradicoes": [],
+        "evidencias": [
+            {
+                "campo": "origem",
+                "trecho_original": "Toluca, Mexico",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Localização do aeroporto de origem"
+            },
+            {
+                "campo": "destino",
+                "trecho_original": "our regional destination",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Localização do aeroporto de destino"
+            },
+            {
+                "campo": "aeroportos_especificos",
+                "trecho_original": "Toluca, Mexico (elevation ~8,460 ft)",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Aeroporto específico com elevação"
+            },
+            {
+                "campo": "numero_passageiros",
+                "trecho_original": "5 passengers",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Número de passageiros"
+            },
+            {
+                "campo": "distancia_milhas_nauticas",
+                "trecho_original": "1,800 nm",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Distância a ser percorrida em milhas náuticas"
+            },
+            {
+                "campo": "comprimento_pista_pes",
+                "trecho_original": "4,100 ft",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Comprimento da pista em pés"
+            },
+            {
+                "campo": "tripulacao",
+                "trecho_original": "n/a",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Não informado"
+            },
+            {
+                "campo": "bagagem",
+                "trecho_original": "n/a",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Não informado"
+            },
+            {
+                "campo": "orcamento_aquisicao",
+                "trecho_original": "n/a",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Não informado"
+            },
+            {
+                "campo": "voo_sem_escala",
+                "trecho_original": "n/a",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Não informado"
+            },
+            {
+                "campo": "objetivo_missao",
+                "trecho_original": "We need an aircraft that can regularly operate out of high -elevation airfields such as Toluca, Mexico (elevation ~8,460 ft) in ISA+15 conditions, departing with enough fuel and 5 passengers to fly 1,800 nm.",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Objetivo da missão: operar aeronaves em aeroportos de alta elevação com condições específicas"
+            },
+            {
+                "campo": "necessidades_operacionais",
+                "trecho_original": "departing with enough fuel and 5 passengers to fly 1,800 nm",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Necessidades operacionais: combustível suficiente e 5 passageiros para voar 1.800 milhas náuticas"
+            },
+            {
+                "campo": "preferencias_cliente",
+                "trecho_original": "n/a",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Não informado"
+            },
+            {
+                "campo": "informacoes_nao_informadas",
+                "trecho_original": "n/a",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Não informado"
+            },
+            {
+                "campo": "contradicoes",
+                "trecho_original": "n/a",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Não informado"
+            }
+        ]
+    },
+    "avisos_validacao": [
+        "Evidência 7 (tripulacao): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 8 (bagagem): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 9 (orcamento_aquisicao): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 10 (voo_sem_escala): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 13 (preferencias_cliente): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 14 (informacoes_nao_informadas): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 15 (contradicoes): trecho não localizado literalmente no documento. Evidência descartada."
+    ]
+}

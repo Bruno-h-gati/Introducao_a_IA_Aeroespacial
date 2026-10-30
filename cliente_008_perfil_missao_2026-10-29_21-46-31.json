@@ -1,0 +1,87 @@
+{
+    "cliente_numero": 8,
+    "horario_inicio": "2026-10-29T21:41:39-03:00",
+    "horario_fim": "2026-10-29T21:46:31-03:00",
+    "duracao_segundos": 291.66,
+    "perfil": {
+        "origem": "Our principal is 6'4\" (1.93 m) tall and travels with family members",
+        "destino": "requiring ample baggage capacity for sports gear and luggage (minimum 100 cu ft)",
+        "aeroportos_especificos": [],
+        "numero_passageiros": null,
+        "tripulacao": "Non -negotiables: a flat -floor cabin with minimum 6'0\" ceili ng height, low cabin altitude (under 6,000 ft at FL410), and a fully enclosed aft lavatory",
+        "bagagem": "minimum 100 cu ft",
+        "distancia_milhas_nauticas": 2000.0,
+        "comprimento_pista_pes": 6000,
+        "orcamento_aquisicao": "Speed and range are secondary to comfort",
+        "voo_sem_escala": null,
+        "objetivo_missao": "Quais modelos se encaixam?",
+        "necessidades_operacionais": [
+            "autonomia",
+            "alcance",
+            "capacidade",
+            "operação em pistas",
+            "velocidade",
+            "conectividade"
+        ],
+        "preferencias_cliente": [
+            "decoração",
+            "cores",
+            "materiais",
+            "acabamento",
+            "preferências estéticas"
+        ],
+        "informacoes_nao_informadas": [],
+        "contradicoes": [],
+        "evidencias": [
+            {
+                "campo": "origem",
+                "trecho_original": "Our principal is 6'4\" (1.93 m) tall and travels with family members",
+                "tipo_informacao": "explícita",
+                "interpretacao": "O principal da empresa é 6'4\" (1.93 m) de altura e viaja com membros da família"
+            },
+            {
+                "campo": "destino",
+                "trecho_original": "requiring ample baggage capacity for sports gear and luggage (minimum 100 cu ft)",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Requer capacidade de bagagem ampla para equipamentos esportivos e malas (mínimo 100 cu ft)"
+            },
+            {
+                "campo": "bagagem",
+                "trecho_original": "minimum 100 cu ft",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Mínimo 100 cu ft"
+            },
+            {
+                "campo": "distancia_milhas_nauticas",
+                "trecho_original": "Required range is moderate, around 2,000 nm",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Alcance moderado, em torno de 2.000 nm"
+            },
+            {
+                "campo": "tripulacao",
+                "trecho_original": "Non -negotiables: a flat -floor cabin with minimum 6'0\" ceili ng height, low cabin altitude (under 6,000 ft at FL410), and a fully enclosed aft lavatory",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Não negociáveis: cabine com piso plano com altura mínima de 6'0\" (ceiling height), altitude da cabine baixa (abaixo de 6.000 pés no FL410) e banheiro traseiro totalmente encerrado"
+            },
+            {
+                "campo": "comprimento_pista_pes",
+                "trecho_original": "low cabin altitude (under 6,000 ft at FL410)",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Altitude da cabine baixa (abaixo de 6.000 pés no FL410)"
+            },
+            {
+                "campo": "orcamento_aquisicao",
+                "trecho_original": "Speed and range are secondary to comfort",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Velocidade e alcance são secundários à conforto"
+            },
+            {
+                "campo": "voo_sem_escala",
+                "trecho_original": "What models fit?",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Quais modelos se encaixam?"
+            }
+        ]
+    },
+    "avisos_validacao": []
+}

@@ -1,0 +1,135 @@
+{
+    "cliente_numero": 7,
+    "horario_inicio": "2026-10-29T21:36:32-03:00",
+    "horario_fim": "2026-10-29T21:41:39-03:00",
+    "duracao_segundos": 307.31,
+    "perfil": {
+        "origem": "domestic flights",
+        "destino": "domestic flights",
+        "aeroportos_especificos": [],
+        "numero_passageiros": 3,
+        "tripulacao": "Not specified in the document",
+        "bagagem": "Not specified in the document",
+        "distancia_milhas_nauticas": 1000.0,
+        "comprimento_pista_pes": null,
+        "orcamento_aquisicao": "Capital for purchase is available",
+        "voo_sem_escala": null,
+        "objetivo_missao": "minimizing Direct Operating Cost (DOC) per flight hour",
+        "necessidades_operacionais": [
+            "Fuel burn",
+            "Engine reserve maintenance"
+        ],
+        "preferencias_cliente": [
+            "Enclosed lavatory",
+            "Cruising speed of at least 400 knots"
+        ],
+        "informacoes_nao_informadas": [
+            "Not specified in the document"
+        ],
+        "contradicoes": [
+            "No contradictions found"
+        ],
+        "evidencias": [
+            {
+                "campo": "origem",
+                "trecho_original": "domestic flights",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Flights that start and end within the same country"
+            },
+            {
+                "campo": "destino",
+                "trecho_original": "domestic flights",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Flights that start and end within the same country"
+            },
+            {
+                "campo": "aeroportos_especificos",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Not specified in the document"
+            },
+            {
+                "campo": "numero_passageiros",
+                "trecho_original": "3 to 4 executives",
+                "tipo_informacao": "explícita",
+                "interpretacao": "3 to 4 passengers"
+            },
+            {
+                "campo": "tripulacao",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Not specified in the document"
+            },
+            {
+                "campo": "bagagem",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Not specified in the document"
+            },
+            {
+                "campo": "distancia_milhas_nauticas",
+                "trecho_original": "under 1,000 nm",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Distances less than 1,000 nautical miles"
+            },
+            {
+                "campo": "comprimento_pista_pes",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Not specified in the document"
+            },
+            {
+                "campo": "orcamento_aquisicao",
+                "trecho_original": "Capital for purchase is available",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Capital is available for purchase"
+            },
+            {
+                "campo": "voo_sem_escala",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Not specified in the document"
+            },
+            {
+                "campo": "objetivo_missao",
+                "trecho_original": "minimizing Direct Operating Cost (DOC) per flight hour",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Minimize Direct Operating Cost per flight hour"
+            },
+            {
+                "campo": "necessidades_operacionais",
+                "trecho_original": "specifically fuel burn and engine reserve maintenance",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Fuel burn and engine reserve maintenance"
+            },
+            {
+                "campo": "preferencias_cliente",
+                "trecho_original": "We require an enclosed lavatory and a cruising speed of at least 400 ktas",
+                "tipo_informacao": "explícita",
+                "interpretacao": "Enclosed lavatory and cruising speed of at least 400 knots"
+            },
+            {
+                "campo": "informacoes_nao_informadas",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "Not specified in the document"
+            },
+            {
+                "campo": "contradicoes",
+                "trecho_original": "",
+                "tipo_informacao": "inferida",
+                "interpretacao": "No contradictions found"
+            }
+        ]
+    },
+    "avisos_validacao": [
+        "Evidência 3 (aeroportos_especificos): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 5 (tripulacao): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 6 (bagagem): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 8 (comprimento_pista_pes): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 10 (voo_sem_escala): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 13 (preferencias_cliente): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 14 (informacoes_nao_informadas): trecho não localizado literalmente no documento. Evidência descartada.",
+        "Evidência 15 (contradicoes): trecho não localizado literalmente no documento. Evidência descartada."
+    ]
+}

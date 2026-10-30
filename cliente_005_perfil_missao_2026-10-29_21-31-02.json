@@ -1,0 +1,25 @@
+{
+    "cliente_numero": 5,
+    "horario_inicio": "2026-10-29T21:30:19-03:00",
+    "horario_fim": "2026-10-29T21:31:02-03:00",
+    "duracao_segundos": 43.59,
+    "perfil": {
+        "origem": "Não informado",
+        "destino": "Não informado",
+        "aeroportos_especificos": [],
+        "numero_passageiros": null,
+        "tripulacao": "Não informado",
+        "bagagem": "Não informado",
+        "distancia_milhas_nauticas": null,
+        "comprimento_pista_pes": null,
+        "orcamento_aquisicao": "Não informado",
+        "voo_sem_escala": null,
+        "objetivo_missao": "Não informado",
+        "necessidades_operacionais": [],
+        "preferencias_cliente": [],
+        "informacoes_nao_informadas": [],
+        "contradicoes": [],
+        "evidencias": []
+    },
+    "avisos_validacao": []
+}
